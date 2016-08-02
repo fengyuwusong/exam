@@ -1,0 +1,113 @@
+body{
+	margin:0;
+	padding: 0;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	/*background: #000;*/
+}
+input{
+	cursor: pointer;
+}
+textarea{
+   resize:none;
+   overflow:visible;
+   margin-top: 3px;
+   display: none;
+}
+#box{
+	 margin:0px auto;
+	 margin-top: 15px;
+	 width: 90%;
+	 position: relative;
+	 line-height: 28px;
+}
+.Num{
+	width: 80px;
+}
+.set{
+	width: 200px;
+	height: 30px;
+}
+#box a{
+	text-decoration: none;
+	color: black;
+}
+#even{
+	background-color:#99FFFF;
+}
+#edit{
+	width: 50%;
+	position: relative;
+}
+#delet{
+	margin-top: 2%;
+	width: 50%;
+	position: relative;
+}
+#turnPage{
+	height:70px;
+	width: 26%;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-family: "楷体";
+}
+#lastPage{
+	position: relative;
+	width: 50%;
+	height: 60px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+#nextPage{
+	position: relative;
+	width: 50%;
+	height: 60px;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+}
+#skip{
+	width: 22%;
+	height: 30px;
+	margin: 15px auto;
+	margin-left: 31%;
+	position: absolute;
+	/*font-weight: bold;*/
+	font-family: "楷体";
+}
+#page_num{
+	width: 22px;
+	height: 13px;
+}
+
+#but{
+	width: 55px;
+	font-family: "楷体";
+	cursor: pointer;
+}
+
+@media only screen and (min-width: 1190px) and (max-width:1310px){
+	#skip{
+		margin-left: 32%;
+		/*width: 30%;*/
+	}
+}
+@media only screen and (min-width: 9px) and (max-width:1190px){
+	#skip{
+		margin-left: 32%;
+		width: 33%;
+	}
+}
+/*@media only screen and (min-width: 776px) and (max-width:970px){
+	#skip{
+		margin-left: 39%;
+		width: 25%;
+	}
+}
+@media only screen and (max-width:776px){
+	#skip{
+		margin-left: 35%;
+		width: 28%;
+	}
+}*/

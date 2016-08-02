@@ -1,0 +1,46 @@
+html,body{
+	margin: 0 auto;
+	/*background: #000;*/
+	font-family: "楷体";
+	font: 20pt sans;
+}
+#box{
+	width: 500px;
+	height: 400px;
+	/*background: #679;*/
+	border-radius: 10px;
+	box-shadow: 3px 3px 30px #000;
+	margin: 6% auto;
+}
+#xkl{
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding-top: 10%;
+}
+img{
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	/*box-shadow: 3px 3px 30px #000;*/
+}
+#tips{
+	width: 60%;
+	height: 8%;
+	margin: 10% auto;
+}
+#return{
+	width: 25%;
+	height: 35%;
+}
+#but{
+	width: 25%;	
+	line-height: 38px;
+	display: block;
+	border: 0;
+	border-radius: 5px;
+	font-size: 22px;
+	cursor: pointer;
+	margin: -15px auto;
+}

@@ -1,0 +1,2492 @@
+[ 2016-07-15T00:13:34+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T00:13:44+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T00:13:47+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 456654 AND `pw` = '456654' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 456654 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2016-07-15T00:14:18+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T00:14:46+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '0123456' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-07-15T00:14:50+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-07-15T00:14:53+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_question` LIMIT 10,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-07-15T10:08:48+08:00 ] 192.168.1.154 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T10:08:55+08:00 ] 192.168.1.154 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '0123456' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-07-15T10:08:55+08:00 ] 192.168.1.154 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T10:09:30+08:00 ] 192.168.1.154 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T10:09:35+08:00 ] 192.168.1.154 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 10,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-07-15T10:09:38+08:00 ] 192.168.1.154 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T10:13:00+08:00 ] 192.168.1.154 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T10:13:05+08:00 ] 192.168.1.154 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 10,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T10:13:06+08:00 ] 192.168.1.154 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T10:13:08+08:00 ] 192.168.1.154 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 10,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T10:23:03+08:00 ] 192.168.1.154 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T10:23:32+08:00 ] 192.168.1.154 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T10:24:08+08:00 ] 192.168.1.154 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T10:32:08+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '0123456' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T10:32:09+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T10:32:52+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = 'hdsbhsdfbhdf' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_admin` SET `err_time`='13' WHERE `id` = 0 AND `name` = 123456 AND `pw` = '0123456' AND `err_time` = 12 [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T10:58:28+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-07-15T11:02:34+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T11:03:57+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T11:03:59+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-07-15T11:03:59+08:00 ] ::1 /exam/index.php/admin/login/singnOut
+ERR: 模板不存在:./App/Admin/View//home/login.html
+
+[ 2016-07-15T11:05:44+08:00 ] ::1 /exam/index.php/admin/login/singnOut
+ERR: 模板不存在:./App/Admin/View/Home/login.html
+
+[ 2016-07-15T11:12:11+08:00 ] ::1 /exam/index.php/admin/login/singnOut
+ERR: 模板不存在:./App/Admin/View/./App/Home/View/Public/login.html.html
+
+[ 2016-07-15T11:13:22+08:00 ] ::1 /exam/index.php/admin/login/singnOut
+ERR: 模板不存在:./App/Admin/View/./App/Admin/View/Home/login.html.html
+
+[ 2016-07-15T11:20:23+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T11:20:26+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '0123456' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T11:20:27+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-07-15T11:20:30+08:00 ] ::1 /exam/index.php/admin/login/singnOut
+ERR: 模板不存在:./App/Admin/View/Home/login.html
+
+[ 2016-07-15T11:25:24+08:00 ] ::1 /exam/index.php/admin/login/singnOut
+ERR: 模板不存在:./App/Admin/View/./App/Admin/View/Home/login.html.html
+
+[ 2016-07-15T14:41:25+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T14:41:26+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T14:41:31+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T14:41:38+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T14:43:25+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T14:44:54+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T14:45:49+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T14:45:59+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T14:46:03+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T14:46:39+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T14:46:41+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 1234564 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T14:46:44+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T14:46:49+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '0123456' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T14:46:50+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-15T14:46:58+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T14:47:00+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:00:30+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T15:00:39+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '0123456' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T15:00:40+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:01:27+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:01:30+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T15:02:19+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-15T15:04:19+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T15:04:39+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+ERR: 参数错误或者未定义:stunum
+
+[ 2016-07-15T15:05:26+08:00 ] ::1 /exam/index.php/Admin/index/addStu?stunum=123456&name=%E5%B0%8F%E6%98%8E&pw=123456
+ERR: Think\Model:addUser方法不存在！
+
+[ 2016-07-15T15:05:41+08:00 ] ::1 /exam/index.php/Admin/index/addStu?stunum=123456&name=%E5%B0%8F%E6%98%8E&pw=123456
+ERR: 1048:Column 'stuname' cannot be null
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('123456',NULL,'123456','1468566341')
+
+[ 2016-07-15T15:12:41+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T15:17:21+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T15:18:19+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:18:26+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-07-15T15:20:35+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T15:21:24+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T15:21:52+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T15:22:37+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T15:23:46+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:25:50+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T15:26:21+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/addStu
+ERR: 1062:Duplicate entry '0' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('0','','','1468567581')
+
+[ 2016-07-15T15:26:24+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T15:26:27+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/addStu
+ERR: 1062:Duplicate entry '0' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('0','','','1468567587')
+
+[ 2016-07-15T15:27:22+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/addStu
+ERR: 1062:Duplicate entry '0' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('0','','','1468567642')
+
+[ 2016-07-15T15:27:39+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/addStu
+ERR: 1062:Duplicate entry '0' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('0','','','1468567659')
+
+[ 2016-07-15T15:28:28+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:31:39+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:32:30+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-15T15:32:58+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-07-15T15:33:03+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:33:12+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-15T15:33:21+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:33:53+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-15T15:33:54+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T15:34:18+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T15:35:16+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:36:01+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_admin` SET `err_time`='24' WHERE `id` = 0 AND `name` = 123456 AND `pw` = '0123456' AND `err_time` = 23 [ RunTime:0.0000s ]
+
+[ 2016-07-15T15:36:17+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T15:36:19+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T15:36:25+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-15T15:36:50+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 1234566 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T15:36:52+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T15:36:55+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T15:36:56+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T15:37:05+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '0123456' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T15:37:07+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T15:37:10+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-07-15T15:37:18+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-15T15:38:56+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-15T15:40:23+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T15:40:31+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-15T15:40:42+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T15:41:00+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:44:42+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T15:44:51+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:45:31+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:45:43+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:46:56+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:49:27+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-15T15:54:11+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:54:31+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T15:55:06+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-07-15T15:55:43+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T15:56:25+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:56:36+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-15T15:56:51+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:57:13+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T15:59:19+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T16:02:12+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-07-15T16:05:13+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T16:05:48+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T16:07:17+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-15T16:12:45+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T16:18:00+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:18:39+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T16:19:43+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:25:56+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T16:27:16+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T16:29:30+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T16:35:34+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T16:41:58+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-07-15T16:42:42+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:42:43+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:42:44+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T16:43:46+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-07-15T16:45:25+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+ERR: 参数错误或者未定义:stunum
+
+[ 2016-07-15T16:45:25+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+ERR: 参数错误或者未定义:stunum
+
+[ 2016-07-15T16:45:59+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+ERR: 参数错误或者未定义:stunum
+
+[ 2016-07-15T16:46:25+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+ERR: 参数错误或者未定义:name
+
+[ 2016-07-15T16:46:25+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+ERR: 参数错误或者未定义:name
+
+[ 2016-07-15T16:46:41+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-15T16:48:12+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:48:16+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:48:16+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:48:16+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-15T16:48:17+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:48:17+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:48:17+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:49:36+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:49:42+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:49:59+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-07-15T16:50:08+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 116 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:51:03+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: num D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 116 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-15T16:54:20+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T16:55:24+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:55:26+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:55:37+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:55:40+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T16:55:50+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:56:11+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:56:18+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T16:56:22+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:57:14+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T16:57:23+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:57:38+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T16:57:44+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:58:02+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T16:59:51+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T17:02:05+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+ERR: 参数错误或者未定义:num
+
+[ 2016-07-15T17:02:13+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T17:02:28+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+ERR: 参数错误或者未定义:stunum
+
+[ 2016-07-15T17:02:34+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T17:03:44+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('123321','123123','','1468573424') [ RunTime:0.0000s ]
+
+[ 2016-07-15T17:03:44+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('456456','456456','','1468573424') [ RunTime:0.0000s ]
+
+[ 2016-07-15T17:06:31+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T17:07:12+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-15T17:08:06+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T17:08:30+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T17:11:01+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T17:12:14+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T17:13:05+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T17:14:02+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T17:14:54+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-15T17:15:20+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-15T17:16:21+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T17:22:32+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T17:24:49+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T17:28:38+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123321 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-15T17:28:50+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T17:28:54+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '0123456' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-15T17:28:55+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-15T17:28:59+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-15T17:29:29+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T17:30:28+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T17:35:20+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-07-15T17:35:21+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-07-15T17:35:44+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575344')
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575344')
+
+[ 2016-07-15T17:35:44+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575344')
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575344')
+
+[ 2016-07-15T17:35:55+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+ERR: 参数错误或者未定义:stunum
+
+[ 2016-07-15T17:35:59+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575359')
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575359')
+
+[ 2016-07-15T17:35:59+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575359')
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575359')
+
+[ 2016-07-15T17:36:23+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575383')
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575383')
+
+[ 2016-07-15T17:36:23+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575383')
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575383')
+
+[ 2016-07-15T17:36:32+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+ERR: 参数错误或者未定义:stunum
+
+[ 2016-07-15T17:37:11+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('222','222','','1468575431') [ RunTime:0.0000s ]
+
+[ 2016-07-15T17:37:11+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575431')
+ERR: 1062:Duplicate entry '111' for key 'name'
+ [ SQL语句 ] : INSERT INTO `tp_user` (`stunum`,`stuname`,`pw`,`time`) VALUES ('111','111','','1468575431')
+
+[ 2016-07-15T17:38:10+08:00 ] ::1 /exam/index.php/Admin/index/addStu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+
+[ 2016-07-15T17:38:57+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-07-15T17:43:53+08:00 ] ::1 /exam/index.php/admin/index/addQuestion
+ERR: 参数错误或者未定义:question
+
+[ 2016-07-15T17:47:18+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T17:47:56+08:00 ] ::1 /exam/index.php/admin/index/addQuestion?question=123&answer_1=12&answer_2=11&answer_3=44&answer_4=15&answer=answer_2
+ERR: 1062:Duplicate entry '123' for key 'question'
+ [ SQL语句 ] : INSERT INTO `tp_question` (`question`,`answer_1`,`answer_2`,`answer_3`,`answer_4`,`answer`) VALUES ('123','12','11','44','15','answer_2')
+
+[ 2016-07-15T17:48:01+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T17:48:41+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T17:49:02+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T17:49:05+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T17:52:20+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T17:53:36+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0760s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T18:03:29+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T18:09:55+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-15T18:12:48+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T18:13:23+08:00 ] ::1 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-15T19:37:05+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-15T19:37:11+08:00 ] 192.168.1.115 /exam/index.php/Admin/index/showQuestion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\IndexController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_question` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

@@ -1,0 +1,86 @@
+body{
+	margin:0;
+	padding: 0;
+	font-size: 15px;
+	font-family: "微软雅黑";
+}
+input{
+	cursor: pointer;
+}
+/*textarea{
+   resize:none;
+   overflow:visible;
+   margin-top: 3px;
+   display: none;
+}*/
+#allquestion{
+	width: 90%;
+	margin:0 auto;
+	margin-top: 10px;
+}
+#allquestion tr{
+	width:55px;
+}
+.Num{
+	width: 50px;
+}
+.question{
+	width: 430px;
+}
+#allquestion a{
+	text-decoration: none;
+	color: black;
+}
+#even{
+	background-color:#99FFFF;
+}
+#turnPage{
+	height:70px;
+	width: 26%;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-family: "楷体";
+}
+#lastPage{
+	position: relative;
+	width: 50%;
+	height: 60px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+#nextPage{
+	position: relative;
+	width: 50%;
+	height: 60px;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+}
+#edit{
+	width: 50%;
+	position: relative;
+}
+#delet{
+	margin-top: 3%;
+	width: 50%;
+	position: relative;
+}
+#skip{
+	width: 15%;
+	height: 20px;
+	margin: 15px auto;
+	margin-left: 39%;
+	position: absolute;
+	/*font-weight: bold;*/
+	font-family: "楷体";
+}
+#page_num{
+	width: 11%;
+	height: 13px;
+}
+#but{
+	width: 55%;
+	font-family: "楷体";
+	cursor: pointer;
+}

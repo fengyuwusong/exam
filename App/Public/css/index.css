@@ -1,0 +1,138 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 22px;
+	/*background-color: red;*/
+}
+/*#header{
+	width: 100%;
+	height: 180px;
+	background-color: red;
+	margin:0 auto;
+}
+#header img{
+	width: 100%;
+	height: 100%;
+	background:no-repeat;
+}*/
+/*头部加东西*/
+#havedo{
+	background: #f5f5f5;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 2%;
+	height: 150px;
+	padding-top: 1%;
+	padding-left: 1%;
+	position: fixed;
+	margin-left: 83%;
+	top: 70%;
+}
+#speed{
+	width: 88%;
+	height: 80%;
+	margin-left:-18%; 
+	margin-top: 5%;
+}
+#per{
+	position: relative;
+	text-align: center;
+	width: 90%;
+	margin-left: -5px;
+
+}
+#do{
+	width: 90%;
+	height: 0%;
+	float: left;
+	background: green;
+}
+#time{
+	background: #f5f5f5;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 13%;
+	height: 80px;
+	position: fixed;
+	margin-left: 2%;
+	margin-top:10%;
+	padding:1% 1% 1% 1%;
+}
+#text{
+	text-align: center;
+}
+#Countdown{
+	font:bold 20pt sans;
+	text-align: center;
+	color: red;
+	padding-top: 8%; 
+	padding-right: 8%;
+}
+.chosing{
+	 margin:0px auto;
+	 margin-top: 5px;
+	 width: 65%;
+	 height:2080px;
+	 position: relative;
+	 line-height: 28px;
+	 border: 1px solid #FF00cc;
+}
+#title{
+	margin: 0 auto;
+	width: 90%;
+	height: 90%;
+	position: relative;
+
+}
+.question_all{
+	position: relative;
+	margin:0 auto;
+	width: 90%;
+/*	background-color:#00FFFF;*/
+	border:1px solid white;
+}
+
+.answer ul{
+	margin-top: 2px;
+	margin-left: -15px;
+	
+}
+.answer ul li{
+	list-style-type: none;
+	cursor: pointer;
+}
+.answer ul li label{
+	cursor: pointer;
+}
+.answer ul li input{
+
+}
+.answer ul li:hover{
+	background-color: #00FFFF;
+}
+.errorMessage{
+	position: relative;
+	width: 90%;
+	margin:0 auto;
+	height:30px;
+}
+.errorMessage span{
+	color: red;
+	visibility:hidden;
+}
+.nextPage{
+	position: relative;
+	margin:0 auto;
+	width: 25%;
+	height: 15px;
+	margin-top:10px;
+}
+.nextPage input{
+	width:125px;
+	height:40px;
+	background-color:#00FFFF;
+	font-size:22px;
+	color:white;
+}

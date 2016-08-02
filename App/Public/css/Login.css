@@ -1,0 +1,274 @@
+body{
+	background-position: top center;
+	margin: 0 auto;
+	font-family: "楷体";
+}
+input{
+	cursor: pointer;
+}
+label{
+	cursor: pointer;
+}
+#all{
+	min-width: 1024px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+#background{
+	background-repeat:no-repeat;
+	opacity: 0.8;
+	width:100%;
+	height: 100%;
+	position: fixed;
+		min-width: 1024px;
+
+}
+#logo{
+	position: absolute;
+	opacity:0.8;
+	float: right;
+	right:24px;
+	top: 10px;
+}
+#container{
+/*	min-width: 1024px;
+*/
+	position: absolute;
+	width: 28%;
+	height: 80%;
+	/*background: red;*/
+	left: 36%;
+	top: 10%;
+}
+#container #top{
+	width: 100%;
+	height: 13%;
+	font-size: 60px;
+	margin:  30px auto;
+	text-align: center;
+}
+#container #num{
+	height: 6%;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 16%;
+}
+#container #num label{
+	float: left;
+	margin-top: 1%;
+	font-size: 25px;
+}
+#stunum_judge{
+	visibility: hidden;
+	width: 185px;
+	height: 20px;
+	margin-left: 38%;
+	margin-top: 2%;
+	/*background: #689;*/
+}
+#container input{
+	width: 66%;
+	height:30px;
+	border-radius: 5px;
+	background: #fff;
+	border: none;
+	float: left;
+}
+#container #pwd{
+	height: 6%;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 4%;
+}
+#container #pwd label{
+	float: left;
+	margin-top: 1%;
+	font-size: 25px;
+}
+
+#container #identifying_code{
+	width: 85%;
+	height: 5%;
+	margin-top: 10%;
+	margin-left: 15%;
+}
+#container #identifying_code label{
+	float: left;
+	font-size: 21px;
+}
+#container #identifying_code input{
+	width: 30%;
+	height: 30px;
+	margin-left: 2%;
+}
+#container #picture{
+	width: 23%;
+	height: 32px;
+	background: #000;
+	/*float: right;*/
+	margin-left: 60%;
+	cursor: pointer;
+}
+#container #picture img{
+	width: 100%;
+	height: 100%;
+}
+#container #choose{
+	/*font-size: 20px;*/
+	top: 5%;
+	width: 55%;
+	height: 10%;
+	position: relative;
+	margin:0 auto;
+	/*margin-left: 15%;*/
+}
+#container #choose #stud{
+	width: 42%;
+	height: 100%;
+	cursor: pointer;
+	position: relative;
+/*	background-color: blue;
+*/	float: left;
+	left:8%; 
+}
+#container #choose #stud span{
+	font-size: 22px;
+	position: relative;
+	line-height: 45px;
+}
+#container #choose #tec{
+	float: right;
+	width: 50%;
+	height: 100%;
+	cursor: pointer;
+	position: relative;
+/*	background-color: blue;
+*/}
+#container #choose #tec span{
+	font-size: 22px;
+	position: relative;
+	line-height: 45px;
+}
+#container #choose input{
+	/*z-index: 100;
+	background-color: transparent;*/
+}
+#container #but{
+	font-size: 30px;
+	width: 150px;
+	height: 30px;
+	margin-left:40%;
+	margin-top:13%;
+}
+#but input{
+	font-family: "楷体";
+	font-size: 22px;
+}
+#foot{
+	width: 100%;
+	height: 24px;
+	bottom: 2px;
+	position: absolute;
+	font-size: 18px;
+	text-align: center;
+}
+
+@media only screen and (min-width: 1255px) and (max-width:1444px){
+#container #top{
+	font-size: 48px;
+}
+#container #num{
+	width: 75%;
+}
+#container #pwd{
+	width: 75%;
+}
+}
+@media only screen and (max-width:1255px){
+#container #top{
+	font-size: 40px;
+}
+#container #num{
+	width: 77%;
+}
+#container #num label{
+	font-size: 18px;
+}
+#container #pwd label{
+	font-size: 18px;
+}
+#container #pwd{
+	width: 75%;
+}
+#container #identifying_code{
+	width: 88%;
+}
+#container #identifying_code label{
+	font-size: 18px;
+}
+#container #picture {
+	width: 20%;
+}
+#container #choose{
+	width: 62%;
+}
+}
+@media only screen and (max-width:935px){
+#container #top{
+	font-size: 40px;
+}
+#container #num{
+	width: 77%;
+}
+#container #num label{
+	font-size: 18px;
+}
+#container #pwd label{
+	font-size: 18px;
+}
+#container #pwd{
+	width: 77%;
+}
+#container #identifying_code{
+	width: 92%;
+}
+#container #identifying_code label{
+	font-size: 15px;
+}
+#container #picture {
+	width: 20%;
+}
+#container #choose{
+	width: 78%;
+}
+}
+@media only screen and (max-width:860px){
+#container #top{
+	font-size: 35px;
+}
+#container #num{
+	width: 88%;
+}
+#container #num label{
+	font-size: 18px;
+}
+#container #pwd label{
+	font-size: 18px;
+}
+#container #pwd{
+	width: 88%;
+}
+#container #identifying_code{
+	width: 92%;
+}
+#container #identifying_code label{
+	font-size: 15px;
+}
+#container #picture {
+	width: 20%;
+}
+#container #choose{
+	width: 89%;
+}
+}

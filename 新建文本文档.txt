@@ -1,0 +1,3 @@
+exam为全部表
+配置文件app/common/conf/config.php
+bug文件app/home/controller/loginController.class.php

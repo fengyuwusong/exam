@@ -1,0 +1,36 @@
+body{
+	margin: 0 auto;
+}
+#box{
+	/*width: 600px;
+	height: 112px;
+	margin: 15% auto;
+	box-shadow: 3px 3px 30px #000;
+	border-radius: 10px;*/
+	width: 700px;
+	height: 400px;
+/*	background: #679;
+*/	border-radius: 10px;
+/*	box-shadow: 3px 3px 30px #000;
+*/	margin: 0 auto;
+	margin-top: 15%;
+	text-align: center;
+}
+label{
+	font-family: "楷体";
+	font-size: 100px;
+	color: #357;
+}
+#back{
+	position: relative;
+	font-size: 18px;
+	margin: 0 auto;
+	height: 50px;
+	margin-top: 80px;
+}
+input{
+	font-weight: bold;
+	font-size: 20px;
+	width: 100px;
+	height: 50px;
+}

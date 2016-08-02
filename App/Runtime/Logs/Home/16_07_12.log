@@ -1,0 +1,3060 @@
+[ 2016-07-12T09:35:14+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456789  [ RunTime:0.0000s ]
+
+[ 2016-07-12T09:35:17+08:00 ] ::1 /exam/index.php/home/login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+ERR: 非法操作:check
+
+[ 2016-07-12T09:35:19+08:00 ] ::1 /exam/index.php/home/login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:check
+
+[ 2016-07-12T09:35:22+08:00 ] ::1 /exam/index.php/home/login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:check
+
+[ 2016-07-12T09:35:22+08:00 ] ::1 /exam/index.php/home/login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 非法操作:check
+
+[ 2016-07-12T09:35:22+08:00 ] ::1 /exam/index.php/home/login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:check
+
+[ 2016-07-12T09:35:22+08:00 ] ::1 /exam/index.php/home/login/check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:check
+
+[ 2016-07-12T09:35:30+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456789  [ RunTime:0.0000s ]
+
+[ 2016-07-12T09:35:53+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456789  [ RunTime:0.0000s ]
+
+[ 2016-07-12T09:35:59+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456789 AND `pw` = '123456789'  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0460s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456789  [ RunTime:0.0000s ]
+
+[ 2016-07-12T09:36:01+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456789 AND `pw` = '123456789'  [ RunTime:0.0000s ]
+
+[ 2016-07-12T10:01:51+08:00 ] 192.168.1.154 /exam/index.php/Home/lo
+ERR: 无法加载控制器:Lo
+
+[ 2016-07-12T10:09:05+08:00 ] 192.168.1.115 /exam/index.php/home/jquery-1.9.1.min.js
+ERR: 无法加载控制器:Jquery-1.9.1.min.js
+
+[ 2016-07-12T11:23:30+08:00 ] 192.168.1.115 /exam/index.php/home/login/check
+ERR: 非法操作:check
+
+[ 2016-07-12T11:24:19+08:00 ] 192.168.1.115 /exam/index.php/home/login/check
+ERR: 非法操作:check
+
+[ 2016-07-12T11:24:21+08:00 ] 192.168.1.115 /exam/index.php/home/login/check
+ERR: 非法操作:check
+
+[ 2016-07-12T11:27:46+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 1235648 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T11:27:57+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456789 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T11:28:12+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456789 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T11:28:35+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456789 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T11:29:42+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456789 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:23:56+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:24:52+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:27:02+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:27:11+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 12345678 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:28:04+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 12345689 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T14:28:16+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 12345689 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:28:29+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 12345689 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T14:28:35+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456789 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:31:13+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T14:31:18+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T14:31:22+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 12345678 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T14:31:31+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:32:11+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-12T14:32:13+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:32:21+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 12345678 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T14:32:52+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T14:34:00+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T14:34:03+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:35:07+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:35:31+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:35:47+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:37:15+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T14:37:16+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-12T14:37:35+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-07-12T14:39:15+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:40:30+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:40:37+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 12345678 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:45:38+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T14:45:41+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:45:49+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T14:48:30+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T14:48:34+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T14:48:34+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T14:49:58+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T14:50:00+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-12T14:50:01+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-12T14:50:02+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-07-12T14:50:04+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T14:50:07+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-12T14:53:29+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T14:53:30+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-07-12T14:53:31+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T14:53:33+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-07-12T14:53:36+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T14:53:39+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T14:53:43+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-12T14:54:20+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T14:54:24+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T14:54:55+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T14:58:34+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T14:59:26+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T15:01:04+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T15:01:09+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 12345678 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T15:09:53+08:00 ] 192.168.1.110 /exam/index.php/Home/View/Index/error.html
+ERR: 无法加载控制器:View
+
+[ 2016-07-12T15:10:58+08:00 ] 192.168.1.110 /exam/index.php/home/error
+ERR: 无法加载控制器:Error
+
+[ 2016-07-12T15:11:28+08:00 ] 192.168.1.110 /exam/index.php/home/View.error
+ERR: 无法加载控制器:View.error
+
+[ 2016-07-12T15:11:43+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T15:11:55+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T15:11:58+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T15:12:22+08:00 ] 192.168.1.110 /exam/index.php/home/View/index.error
+ERR: 无法加载控制器:View
+
+[ 2016-07-12T15:17:10+08:00 ] ::1 /exam/index.php/home/index/test/error
+ERR: 参数错误或者未定义:html
+
+[ 2016-07-12T15:17:36+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-07-12T15:24:03+08:00 ] ::1 /exam/index.php/home/index/test=bejing
+ERR: 非法操作:test=bejing
+
+[ 2016-07-12T15:27:55+08:00 ] 192.168.1.110 /exam/index.php/Home/index/login.html
+ERR: 非法操作:login
+
+[ 2016-07-12T15:31:23+08:00 ] 192.168.1.110 /exam/index.php/Home/index/END
+ERR: 非法操作:END
+
+[ 2016-07-12T15:31:57+08:00 ] 192.168.1.115 /exam/index.php/home/end
+ERR: 无法加载控制器:End
+
+[ 2016-07-12T15:33:04+08:00 ] 192.168.1.110 /exam/index.php/Home/index/endhtml
+ERR: 非法操作:endhtml
+
+[ 2016-07-12T15:41:19+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T15:41:47+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T15:42:52+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T15:43:00+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T15:43:43+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T15:44:00+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T15:44:24+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T15:44:40+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456789 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T15:45:06+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456789 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T15:46:20+08:00 ] ::1 /exam/index.php/Home/login/verify
+ERR: 非法操作:verify
+
+[ 2016-07-12T15:46:26+08:00 ] ::1 /exam/index.php/Home/login/verify
+ERR: 非法操作:verify
+
+[ 2016-07-12T15:46:27+08:00 ] ::1 /exam/index.php/Home/login/verify
+ERR: 非法操作:verify
+
+[ 2016-07-12T15:46:34+08:00 ] ::1 /exam/index.php/Home/login/verify
+ERR: 非法操作:verify
+
+[ 2016-07-12T15:46:35+08:00 ] ::1 /exam/index.php/Home/login/verify
+ERR: 非法操作:verify
+
+[ 2016-07-12T15:46:48+08:00 ] ::1 /exam/index.php/Home/login/verify
+ERR: 非法操作:verify
+
+[ 2016-07-12T15:47:19+08:00 ] ::1 /exam/index.php/Home/login/verify
+ERR: 非法操作:verify
+
+[ 2016-07-12T15:47:20+08:00 ] ::1 /exam/index.php/Home/login/verify
+ERR: 非法操作:verify
+
+[ 2016-07-12T15:59:19+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T15:59:24+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 3213 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T15:59:30+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:02:10+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:02:14+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:02:29+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:02:33+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:02:45+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:02:46+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:02:46+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:02:47+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:02:47+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:04:21+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:04:29+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '1234561' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='2' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 1 [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:04:58+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:05:01+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '488151' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='3' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 2 [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:06:29+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:06:38+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:06:41+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:06:46+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:06:53+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:06:53+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:06:54+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:06:54+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:06:54+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:06:54+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:06:54+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:06:55+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:07:03+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:07:08+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:07:08+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:07:08+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:07:09+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:07:09+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:07:09+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:07:09+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:07:40+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456fyufyfj' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='4' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 3 [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:07:48+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:10:02+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 12345 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:10:05+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:10:09+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '1234567' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='5' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 4 [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:10:13+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:10:21+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:10:30+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:10:30+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:10:30+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:10:37+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:10:37+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:10:37+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:10:37+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:10:37+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:10:37+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:10:37+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:11:25+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:11:28+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:11:33+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:11:57+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:12:01+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:13:32+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:13:40+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123548 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:13:45+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:13:49+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:14:23+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:14:26+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:15:24+08:00 ] 192.168.1.115 /exam/index.php/home/html/chosing.html
+ERR: 无法加载控制器:Html
+
+[ 2016-07-12T16:16:12+08:00 ] 192.168.1.115 /exam/index.php/home/index/index/index
+ERR: 1048:Column 'stunum' cannot be null
+ [ SQL语句 ] : INSERT INTO `tp_exam` (`stunum`,`question_id`,`answer_order`,`end_time`) VALUES (NULL,'19,16,15,17,21,2,1,11,18,10,','4,3,1,2,3,4,1,2,1,4,2,3,1,2,3,4,3,4,2,1,3,1,2,4,4,1,3,2,2,1,4,3,4,2,1,3,2,4,3,1,','1468318572')
+
+[ 2016-07-12T16:17:41+08:00 ] 192.168.1.115 /exam/index.php/home/end
+ERR: 无法加载控制器:End
+
+[ 2016-07-12T16:18:23+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 1234567 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:20:54+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:20:57+08:00 ] 192.168.1.115 /exam/index.php/home/index/index/index
+ERR: 1048:Column 'stunum' cannot be null
+ [ SQL语句 ] : INSERT INTO `tp_exam` (`stunum`,`question_id`,`answer_order`,`end_time`) VALUES (NULL,'10,21,20,14,19,16,3,13,15,1,','2,3,1,4,4,3,1,2,1,4,3,2,1,3,4,2,3,2,4,1,2,3,1,4,1,3,2,4,2,3,4,1,3,2,4,1,1,3,4,2,','1468318857')
+
+[ 2016-07-12T16:21:22+08:00 ] 192.168.1.115 /exam/index.php/home/index/index/index
+ERR: 1048:Column 'stunum' cannot be null
+ [ SQL语句 ] : INSERT INTO `tp_exam` (`stunum`,`question_id`,`answer_order`,`end_time`) VALUES (NULL,'18,3,11,12,17,10,15,1,20,14,','3,1,2,4,4,3,2,1,1,4,3,2,3,1,2,4,2,3,1,4,2,3,4,1,3,4,1,2,1,2,4,3,3,2,4,1,2,4,3,1,','1468318882')
+
+[ 2016-07-12T16:36:53+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:37:47+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:37:50+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:38:07+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:38:10+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:39:12+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:41:24+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:42:01+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:43:15+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:43:18+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:43:27+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '222222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='6' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 5 [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:43:32+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:43:37+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 2222222 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:43:39+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 2222222 AND `pw` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 2222222 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:44:12+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:44:24+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:44:29+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T16:44:34+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-12T16:44:36+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T16:44:54+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:48:30+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:50:17+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:53:04+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:54:56+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:55:00+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 66 行.
+NOTIC: [8] Trying to get property of non-object D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 66 行.
+NOTIC: [8] Array to string conversion D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 76 行.
+
+[ 2016-07-12T16:55:07+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 66 行.
+NOTIC: [8] Trying to get property of non-object D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 76 行.
+
+[ 2016-07-12T16:55:24+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:56:50+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:56:53+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_user` SET `err_time`='7' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 6 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:56:56+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='8' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 7 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:19+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:57:19+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='9' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 8 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:21+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='10' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 9 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:21+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='11' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 10 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:23+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='12' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 11 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:24+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='13' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 12 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:24+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='14' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 13 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:25+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='15' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 14 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:25+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='16' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 15 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:26+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='17' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 16 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:26+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='18' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 17 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:26+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='19' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 18 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:26+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='20' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 19 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:30+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_user` SET `err_time`='21' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 20 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:30+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '0000000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='22' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 21 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:37+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T16:57:40+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '00000000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='23' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 22 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:44+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '00000000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='24' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 23 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:46+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '00000000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='25' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 24 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:46+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '00000000' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='26' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 25 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:48+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '00000000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_user` SET `err_time`='27' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 26 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:48+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '00000000' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='28' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 27 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:57:52+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:57:57+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 75 行.
+
+[ 2016-07-12T16:58:01+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:58:05+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:58:09+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '22222222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='29' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 28 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:58:11+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '22222222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='30' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 29 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:58:12+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '22222222' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='31' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 30 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: return D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 77 行.
+
+[ 2016-07-12T16:58:34+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:58:36+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: stunum D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 51 行.
+
+[ 2016-07-12T16:58:38+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: stunum D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 51 行.
+
+[ 2016-07-12T16:59:16+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:59:18+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '12525252' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='32' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 31 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T16:59:19+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '12525252' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='33' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 32 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T16:59:40+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T16:59:50+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:59:53+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:00:04+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T17:00:12+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:00:23+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:00:25+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: stunum D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 51 行.
+
+[ 2016-07-12T17:00:28+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: stunum D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 51 行.
+
+[ 2016-07-12T17:00:28+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: stunum D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Controller\LoginController.class.php 第 51 行.
+
+[ 2016-07-12T17:00:57+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:01:00+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '21132156' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='34' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 33 [ RunTime:0.0010s ]
+
+[ 2016-07-12T17:01:16+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 1231546 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:01:19+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:01:23+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123132' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='35' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 34 [ RunTime:0.0010s ]
+
+[ 2016-07-12T17:01:28+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='36' WHERE `id` = 4 AND `stunum` = 123456 AND `pw` = '123456' AND `err_time` = 35 [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:01:37+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:01:43+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T17:02:17+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:02:21+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:02:26+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:02:51+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:04:34+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 1223456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T17:04:37+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 1223456 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T17:04:42+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 1223456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:04:47+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:04:52+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:19:05+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T17:19:05+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T17:21:07+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T17:24:49+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T17:24:56+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T17:25:16+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T17:25:20+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T17:25:35+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T17:25:36+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T17:26:02+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T17:26:11+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T17:26:13+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T17:26:48+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-12T17:26:51+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T17:26:54+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T17:27:24+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-12T17:27:26+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T17:27:47+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T17:28:14+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T17:28:42+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T17:28:42+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T17:28:44+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-12T17:28:53+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T17:29:37+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-07-12T17:32:18+08:00 ] 192.168.1.115 /exam/index.php/home/login/check_verify
+ERR: 参数错误或者未定义:code
+
+[ 2016-07-12T18:22:54+08:00 ] 192.168.1.115 /exam/index.php/Home/logim
+ERR: 无法加载控制器:Logim
+
+[ 2016-07-12T18:23:20+08:00 ] 192.168.1.115 /exam/index.php/Home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-07-12T18:23:36+08:00 ] 192.168.1.115 /exam/index.php/Home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T18:30:36+08:00 ] 192.168.1.115 /exam/index.php/Home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T18:30:39+08:00 ] 192.168.1.115 /exam/index.php/Home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T20:07:52+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T20:11:03+08:00 ] 192.168.1.124 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T20:11:08+08:00 ] 192.168.1.124 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123546 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:11:12+08:00 ] 192.168.1.124 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123546 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:11:13+08:00 ] 192.168.1.124 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123546 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T20:11:15+08:00 ] 192.168.1.124 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123546 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:11:20+08:00 ] 192.168.1.124 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:11:27+08:00 ] 192.168.1.124 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T20:11:32+08:00 ] 192.168.1.124 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:11:37+08:00 ] 192.168.1.124 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:11:42+08:00 ] 192.168.1.124 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123321 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:12:05+08:00 ] 192.168.1.124 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:13:01+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123321 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T20:13:28+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 AND `pw` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_user` SET `err_time`='1' WHERE `id` = 5 AND `stunum` = 123321 AND `pw` = '123321' AND `err_time` = 0 [ RunTime:0.0010s ]
+
+[ 2016-07-12T20:13:33+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:13:50+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:15:20+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T20:16:05+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:16:12+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:16:19+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T20:16:44+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-12T20:16:50+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:16:53+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T20:16:59+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T20:17:02+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T20:17:12+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-12T20:17:22+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-12T20:17:24+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T20:17:26+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T20:17:34+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-12T20:17:41+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T20:17:43+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T20:17:50+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T20:17:53+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T20:18:01+08:00 ] ::1 /exam/index.php/home/login/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T20:18:04+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:20:28+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:20:31+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T20:20:45+08:00 ] ::1 /exam/index.php/home/login/index/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T20:20:47+08:00 ] ::1 /exam/index.php/home/login/index/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T20:20:49+08:00 ] ::1 /exam/index.php/home/login/index/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T20:20:53+08:00 ] ::1 /exam/index.php/home/login/index/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T20:20:55+08:00 ] ::1 /exam/index.php/home/login/index/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T20:20:56+08:00 ] ::1 /exam/index.php/home/login/index/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T20:20:57+08:00 ] ::1 /exam/index.php/home/login/index/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-12T20:20:57+08:00 ] ::1 /exam/index.php/home/login/index/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T20:20:59+08:00 ] ::1 /exam/index.php/home/login/index/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T20:21:09+08:00 ] ::1 /exam/index.php/home/login/index/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T20:22:23+08:00 ] ::1 /exam/index.php/home/login/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:22:26+08:00 ] ::1 /exam/index.php/home/login/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:22:28+08:00 ] ::1 /exam/index.php/home/login/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:22:29+08:00 ] ::1 /exam/index.php/home/login/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:22:30+08:00 ] ::1 /exam/index.php/home/login/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:22:36+08:00 ] ::1 /exam/index.php/home/login/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:22:59+08:00 ] ::1 /exam/index.php/home/login/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:23:00+08:00 ] ::1 /exam/index.php/home/login/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:23:03+08:00 ] ::1 /exam/index.php/home/login/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:23:24+08:00 ] ::1 /exam/index.php/home/login/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:23:37+08:00 ] ::1 /exam/index.php/home/login/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:23:44+08:00 ] ::1 /exam/index.php/home/login/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:23:50+08:00 ] ::1 /exam/index.php/home/login/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:24:34+08:00 ] ::1 /exam/index.php/home/login/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:24:35+08:00 ] ::1 /exam/index.php/home/login/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:25:49+08:00 ] ::1 /exam/index.php/home/login/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:25:53+08:00 ] ::1 /exam/index.php/home/login/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:26:39+08:00 ] ::1 /exam/index.php/home/login/check
+ERR: 非法操作:check
+
+[ 2016-07-12T20:27:03+08:00 ] ::1 /exam/index.php/home/login/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:27:09+08:00 ] ::1 /exam/index.php/home/login/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:27:37+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:27:40+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:27:51+08:00 ] ::1 /exam/index.php/home/login/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:28:11+08:00 ] ::1 /exam/index.php/home/login/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:28:17+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:28:20+08:00 ] ::1 /exam/index.php/home/login/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:login
+
+[ 2016-07-12T20:28:38+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:28:41+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\ExamModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\ExamModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_exam` WHERE `stunum` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:28:45+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:28:48+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T20:28:48+08:00 ] ::1 /exam/index.php/home/login/login/start
+ERR: 非法操作:login
+
+[ 2016-07-12T20:31:28+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:31:35+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T20:33:02+08:00 ] ::1 /exam/index.php/home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-12T20:33:07+08:00 ] ::1 /exam/index.php/home/login/check_pw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `stunum` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0000s ]
+

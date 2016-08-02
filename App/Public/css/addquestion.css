@@ -1,0 +1,54 @@
+body{
+	margin:0;
+	padding: 0;
+	font-size: 15px;
+	font-family: "微软雅黑";
+}
+#addquestion{
+	 margin:0px auto;
+	 margin-top: 15px;
+	 width: 90%;
+	 position: relative;
+	 line-height: 28px;
+/*	 border: 1px solid #FF00cc;
+*/}
+.Num{
+	width: 50px;
+}
+.row1{
+	width: 430px;
+}
+#even{
+	background-color:#99FFFF;
+}
+textarea{
+   resize:none;
+   overflow:visible;
+   margin-top: 3px;
+}
+#addBtn{
+	width: 15%;
+	margin:0 auto;
+	height: 42px;
+	position: relative;
+	background-color: red;
+	margin-top: 10px;	
+	margin-bottom: 15px;
+}
+#addBtn input{
+	width: 100%;
+	margin:0 auto;
+	height: 42px;
+}
+#sure{
+	width: 8%;
+	margin:0 auto;
+	height: 42px;
+	position: relative;
+	background-color: red;
+}
+#sure input{
+	width: 100%;
+	margin:0 auto;
+	height: 42px;
+}

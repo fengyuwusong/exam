@@ -1,0 +1,66 @@
+body{
+	margin:0;
+	padding: 0;
+	font-size: 15px;
+	font-family: "微软雅黑";
+}
+input{
+	cursor: pointer;
+}
+textarea{
+   resize:none;
+   overflow:visible;
+   margin-top: 3px;
+   display: none;
+}
+#allstudents{
+	width: 90%;
+	margin:0 auto;
+	margin-top: 10px;
+}
+.ID{
+	width: 120px;
+}
+.num{
+	width: 300px;
+}
+#allstudents a{
+	text-decoration: none;
+	color: black;
+}
+#even{
+	background-color:#99FFFF;
+}
+#turnPage{
+	height:70px;
+	width: 26%;
+	margin: 15px auto;
+	font-family: "楷体";
+}
+#lastPage{
+	position: relative;
+	width: 50%;
+	height: 60px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+#nextPage{
+	position: relative;
+	width: 50%;
+	height: 60px;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+}
+#Scores{
+	font-size: 20px;
+	width: 8%;
+	height: 30px;
+	margin: 10px auto;
+	margin-left: 24%;
+	position: absolute;
+	font-weight: bold;
+	font-family: "楷体";
+	cursor: pointer;
+}

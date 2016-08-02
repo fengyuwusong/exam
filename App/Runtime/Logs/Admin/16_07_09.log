@@ -1,0 +1,29 @@
+[ 2016-07-09T15:59:50+08:00 ] ::1 /exam/index.php/admin/addQuestion
+ERR: 无法加载控制器:AddQuestion
+
+[ 2016-07-09T16:24:26+08:00 ] ::1 /exam/index.php/admin/index/admin/index/addQuestion
+ERR: 非法操作:admin
+
+[ 2016-07-09T16:25:11+08:00 ] ::1 /exam/index.php/admin/index/admin/index/addQuestion
+ERR: 非法操作:admin
+
+[ 2016-07-09T16:25:17+08:00 ] ::1 /exam/index.php/admin/index/admin/index/addQuestion
+ERR: 非法操作:admin
+
+[ 2016-07-09T16:25:18+08:00 ] ::1 /exam/index.php/admin/index/admin/index/addQuestion
+ERR: 非法操作:admin
+
+[ 2016-07-09T16:25:39+08:00 ] ::1 /exam/index.php/admin/index/admin/index/addQuestion
+ERR: 非法操作:admin
+
+[ 2016-07-09T16:26:05+08:00 ] ::1 /exam/index.php/admin/index/admin/index/addQuestion
+ERR: 非法操作:admin
+
+[ 2016-07-09T16:28:39+08:00 ] ::1 /exam/index.php/admin/index/addQuestion
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1,2,3,4,`answer`) VALUES ('挂多少科需要被劝退？','1','2','3','4','4')' at line 1
+ [ SQL语句 ] : INSERT INTO `tp_question` (`question`,1,2,3,4,`answer`) VALUES ('挂多少科需要被劝退？','1','2','3','4','4')
+
+[ 2016-07-09T16:54:54+08:00 ] ::1 /exam/index.php/admin/index/addQuestion
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1,2,3,4,`answer`) VALUES ('挂多少科需要被劝退？','1','2','3','4','4')' at line 1
+ [ SQL语句 ] : INSERT INTO `tp_question` (`question`,1,2,3,4,`answer`) VALUES ('挂多少科需要被劝退？','1','2','3','4','4')
+

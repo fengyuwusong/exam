@@ -1,0 +1,9 @@
+[ 2016-07-24T15:41:37+08:00 ] ::1 /exam/index.php/Home/login/check_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_user` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: stunum D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Home\Model\UserModel.class.php 第 14 行.
+

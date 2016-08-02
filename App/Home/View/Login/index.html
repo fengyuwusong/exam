@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>Login_pc</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo CSS_URL;?>/Login.css">
+	<script type="text/javascript" src="<?php echo JS_URL;?>jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="<?php echo JS_URL;?>Login.js"></script>
+</head>
+<body>
+	<div id="all">	
+		<img  id="background" src="<?php echo IMAGE_URL;?>beijing.png"> 
+		<img id="logo" src="<?php echo IMAGE_URL;?>GCU2.png">
+		<div id = "container">
+			<div id="top">
+				<label>学生手册测试</label>
+			</div>
+			<div id="num">
+		    	<label>学 号：</label>
+		    	<input type="text" name="student_number" id="stunum" />
+		    </div>
+		    <div id="stunum_judge"></div>
+		    <div id="pwd">
+		    	<label>密 码：</label>
+		    	<input type="password" name="password" id="pw" />
+		    </div>
+		    <div id="identifying_code">
+		    	<label>验证码：</label>
+		    		<input id="Verification" type="text" name="identifying">
+		    	<div id="picture"><img src="/exam/index.php/home/login/set_verify" id="identify" onclick = "this.src='/exam/index.php/home/login/set_verify'"></div>
+		    </div>
+		    <div id="choose">
+		    	<div id="stud"><input type="radio" style="width:15px;background-color: transparent;" value="stu" name="ID" checked="checked">
+		    	<span>学生</span></div>
+		    	<div id="tec"><input type="radio" style="width:15px;background-color: transparent;" value="admin" name="ID">
+		    	<span>管理员</span></div>
+		    </div>
+		    <div id="but"><!-- <a href="../html/begin.html">登录</a> --><input type="button" value="登录" id="login"></div>
+			
+		</div>
+			<div id="foot">
+				<span>华南理工大学广州学院&nbsp&nbsp@星空学生创新中心</span>
+			</div>
+	</div>
+<script type="text/javascript">
+</script>
+</body>
+</html>
+
+

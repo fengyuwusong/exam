@@ -1,0 +1,252 @@
+[ 2016-07-12T11:45:51+08:00 ] ::1 /exam/index.php/admin/login/checkAdminName
+ERR: 无法加载控制器:Login
+
+[ 2016-07-12T11:46:02+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminName
+ERR: 无法加载控制器:Login
+
+[ 2016-07-12T11:46:16+08:00 ] ::1 /exam/index.php/Admin/login/
+ERR: 无法加载控制器:Login
+
+[ 2016-07-12T11:46:34+08:00 ] ::1 /exam/index.php/Admin/Login
+ERR: 无法加载控制器:Login
+
+[ 2016-07-12T11:46:47+08:00 ] ::1 /exam/index.php/Admin/Login
+ERR: 模板不存在:./App/Admin/View/Login/index.html
+
+[ 2016-07-12T16:36:59+08:00 ] 192.168.1.115 /exam/index.php/Admin/checkeAdmin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:CheckeAdmin
+
+[ 2016-07-12T16:37:33+08:00 ] 192.168.1.115 /exam/index.php/Admin/checkeAdmin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:CheckeAdmin
+
+[ 2016-07-12T16:38:16+08:00 ] 192.168.1.115 /exam/index.php/Admin/checkeAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:CheckeAdminname
+
+[ 2016-07-12T16:38:32+08:00 ] 192.168.1.115 /exam/index.php/Admin/checkeAdminname
+ERR: 无法加载控制器:CheckeAdminname
+
+[ 2016-07-12T16:38:39+08:00 ] 192.168.1.115 /exam/index.php/Admin/checkAdminname
+ERR: 无法加载控制器:CheckAdminname
+
+[ 2016-07-12T16:39:17+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkeAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:checkeAdminname
+
+[ 2016-07-12T16:39:32+08:00 ] 192.168.1.115 /exam/index.php/Admin/checkAdminnamehttp://192.168.1.125/exam/index.php/Admin/login/checkeAdminname
+ERR: 无法加载控制器:CheckAdminnamehttp:
+
+[ 2016-07-12T16:39:36+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkeAdminname
+ERR: 非法操作:checkeAdminname
+
+[ 2016-07-12T16:39:46+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkeAdminname
+ERR: 非法操作:checkeAdminname
+
+[ 2016-07-12T16:39:46+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkeAdminname
+ERR: 非法操作:checkeAdminname
+
+[ 2016-07-12T16:39:47+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkeAdminname
+ERR: 非法操作:checkeAdminname
+
+[ 2016-07-12T16:39:47+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkeAdminname
+ERR: 非法操作:checkeAdminname
+
+[ 2016-07-12T16:39:48+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkeAdminname
+ERR: 非法操作:checkeAdminname
+
+[ 2016-07-12T16:39:49+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkeAdminname
+ERR: 非法操作:checkeAdminname
+
+[ 2016-07-12T16:40:47+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-12T16:40:49+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-12T16:40:51+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-12T16:40:52+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-12T16:41:31+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-12T16:41:35+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-12T16:42:05+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-07-12T16:44:12+08:00 ] 192.168.1.115 /exam/index.php/Admin/login
+ERR: 非法操作:index
+
+[ 2016-07-12T16:48:59+08:00 ] 192.168.1.115 /exam/index.php/Admin/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:CheckAdminpw
+
+[ 2016-07-12T16:50:23+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 16 行.
+
+[ 2016-07-12T16:50:30+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 16 行.
+
+[ 2016-07-12T16:50:42+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 16 行.
+
+[ 2016-07-12T16:53:19+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_admin` SET `err_time`='8' WHERE `id` = 0 AND `name` = 123456 AND `pw` = '0123456' AND `err_time` = 7 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T16:55:29+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '123565' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_admin` SET `err_time`='9' WHERE `id` = 0 AND `name` = 123456 AND `pw` = '0123456' AND `err_time` = 8 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T16:55:34+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_admin` SET `err_time`='10' WHERE `id` = 0 AND `name` = 123456 AND `pw` = '0123456' AND `err_time` = 9 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-12T16:55:39+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '1346' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_admin` SET `err_time`='11' WHERE `id` = 0 AND `name` = 123456 AND `pw` = '0123456' AND `err_time` = 10 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T16:56:00+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-12T16:56:06+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '0123456' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T17:01:06+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-12T17:01:09+08:00 ] 192.168.1.115 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 AND `pw` = '12123a3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123456 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_admin` SET `err_time`='12' WHERE `id` = 0 AND `name` = 123456 AND `pw` = '0123456' AND `err_time` = 11 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T17:22:17+08:00 ] 192.168.1.115 /exam/index.php/Admin/login
+ERR: 非法操作:index
+
+[ 2016-07-12T17:22:21+08:00 ] 192.168.1.115 /exam/index.php/Admin/login
+ERR: 非法操作:index
+
+[ 2016-07-12T20:12:55+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: name D:\myenv\UPUPW_AP5.4\htdocs\exam\App\Admin\Controller\LoginController.class.php 第 6 行.
+
+[ 2016-07-12T20:12:58+08:00 ] ::1 /exam/index.php/Admin/login/checkAdminpw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123321 AND `pw` = '123321' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 123321 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
